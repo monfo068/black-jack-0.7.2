@@ -9,6 +9,7 @@ using namespace std;
 void manouno(int gio[], int cru[])
 {
   int app, app3;
+  srand(time(0));
   for (int i = 0; i < 2; i++)
   {
     srand(time(0));
