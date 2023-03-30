@@ -11,6 +11,7 @@ void manouno(int gio[], int cru[])
   int app, app3;
   for (int i = 0; i < 2; i++)
   {
+    srand(time(0));
     app3 = rand() % 3;
     if (app3 == 0)
     {
@@ -83,6 +84,7 @@ void giocate(int gio[], int cru[], int &punt, int &credit, string name, string &
   cout << name << " le tue carte sono " << gio[0] << " " << gio[1] << endl
        << "somma delle tue carte " << gio[0] + gio[1] << endl
        << "carta croupier " << cru[0] << endl;
+  srand(time(0));
   do
   {
     cout << endl
